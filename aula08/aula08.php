@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        #  Ler o nome, ano de nascimento e sexo de uma pessoa, mostrando idade
         $valor = $_GET["v"];
         echo "O valor enviado foi $valor. ";
         $rq = sqrt($valor);
