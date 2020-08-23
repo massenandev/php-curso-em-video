@@ -11,7 +11,7 @@
             $a = isset($_GET["ano"]) ? $_GET["ano"] : 1900;
             $i = date("Y") - $a;
             echo "Você nasceu em $a e tem $i anos.";
-            if($i > 16){
+            if($i >= 18){
                 $v = "já pode votar";
                 $d = "já pode dirigir";
             }
@@ -22,5 +22,6 @@
             echo " Portanto, você $v e $d também.";
         ?>
     </div>
+    <a href="aula09.html"> Voltar</a>
 </body>
 </html>
