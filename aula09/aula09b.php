@@ -20,6 +20,9 @@
             if($i >= 16 && $i < 18){
                 $v = "pode optar por votar ou não";
                 $d = "não pode dirigir";
+            } else if($i > 65){
+                $v = "pode optar por votar ou não";
+                $d = "pode dirigir";
             }
             else{
                 $v = "deve votar";
