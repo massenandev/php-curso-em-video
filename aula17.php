@@ -64,6 +64,9 @@
     $nova = str_replace("matemática", "PHP", $math);
     print($nova);
 
+    # Para ser do tipo ignore case, só colocar o I na frente
+    $nova = str_ireplace("matemática", "PHP", $math);
+    print($nova);
     ?>
 </body>
 </html>
