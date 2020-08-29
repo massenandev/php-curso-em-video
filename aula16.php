@@ -91,7 +91,7 @@
     # Função ord -> mostra o código da letra
     $cod = ord($letra);
     print("A letra $letra tem código $cod");
-    
+
     ?>
 </body>
 </html>
